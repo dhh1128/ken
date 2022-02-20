@@ -24,14 +24,15 @@ Ken supports highlighting cells in a table. The format and appearance is the sam
 
 ## Border style
 
-bs:s (only have to use enough letters from CSS to disambiguate, so `s` means solid).
+`bs:s` (only have to use enough letters from CSS to disambiguate, so `s` means solid). Use commas for 2, 3, or 4-value versions (e.g., `bs:s,s`)
 
 ## Border color
-bc:[color](colors.md)
+
+`bc:blue`. Use commas for 2, 3, or 4-value versions (e.g., `bs:s,s`). If colors are specified without styles, assume `bs:s` in whatever variant (1, 2, 3, or 4) the color uses.
 
 ## Column width
 
-A column width instruction is an expression like `20%` or `3em`. Append it to the pipe that precedes a cell on the delimiter row; it is not valid on content rows or header rows.
+A column width instruction is an expression like `w:20%` or `w:3em`. Append it to the pipe that precedes a cell on the delimiter row; it is not valid on content rows or header rows.
 
 ## Tables without headers
 
