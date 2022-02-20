@@ -1,6 +1,6 @@
 # ken
 
-Ken is a variant of markdown that maximizes expressive power. If you know markdown, you already "ken" a lot of ken's syntax. Read [the spec](spec/README.md) for details.
+Ken is a variant of markdown that maximizes expressive power. If you know markdown, you already "ken" a lot of ken's syntax. Read [the spec](spec) for details.
 
 
 ![definition](assets/definition.png)
