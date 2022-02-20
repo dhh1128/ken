@@ -84,7 +84,7 @@ To begin a cell's content with a `>` character, simply put a space between the p
 A cell can be given an HTML `rowspan` value (merging it with the cell(s) below it) by preceding its delimiting pipe character with one or more underscore (`_`) characters (where the number of `_` characters tells how many downward cells to merge):
 
 
-```iml
+```ken
 Month | Savings | Savings for holiday!
 --- | --- | ---
 January | $100 |_ $50

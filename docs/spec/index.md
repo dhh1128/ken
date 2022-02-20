@@ -46,7 +46,7 @@ TODO: should summary be styled like a header? Maybe only if followed by a header
 
 #### Transformation modes
 
-For safety and simplicity reasons, intent docs are assumed to intend [embeddable mode](../glossary.html#embeddable-mode) only. The transformation of individual files can always be forced into [standalone mode](../glossary.html#standalone-mode) with the `--standalone-mode` switch. Alternatively, the `--natural-mode` switch will render all files in their [natural mode](../glossary.html#natural-mode).
+For safety and simplicity reasons, ken docs are assumed to intend [embeddable mode](../glossary.html#embeddable-mode) only. The transformation of individual files can always be forced into [standalone mode](../glossary.html#standalone-mode) with the `--standalone-mode` switch. Alternatively, the `--natural-mode` switch will render all files in their [natural mode](../glossary.html#natural-mode).
 
 A file can declare or inherit a `standalone prefix` and/or `standalone suffix` property; the direct declaration of such a prefix or suffix changes the natural mode for the content to standalone. During standalone mode transformation, the content of `standalone prefix` is prepended to the main output as if it were a pure HTML fragment that contained all structure up to and including `<body>`; the content of `standalone suffix` is appended as if it were a pure HTML fragment that contained at least `</body></html>`. 
 
@@ -62,7 +62,7 @@ See [hypertext](hypertext.md).
 
 #### Includes
 
-IML supports includes as a convenience.
+ken supports includes as a convenience.
 
 #### Mustaches
 

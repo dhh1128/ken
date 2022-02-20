@@ -1,4 +1,4 @@
-Things that intent could expand
+Things that ken could expand
 
 * glossary: take all definitions from doc or larger scope and generate a glossary
 * doc stats:
