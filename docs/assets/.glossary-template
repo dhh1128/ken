@@ -6,7 +6,7 @@
     <!-- Begin Jekyll SEO tag v2.7.1 -->
     <title>Glossary | the ken markdown language</title>
     <meta name="generator" content="Jekyll v3.9.0" />
-    <meta property="og:title" content="intent" />
+    <meta property="og:title" content="ken" />
     <meta property="og:locale" content="en_US" />
     <meta name="description" content="the ken markdown language" />
     <meta property="og:description" content="the ken markdown language" />
@@ -103,7 +103,7 @@ function goto(url) {
 
     <header class="page-header" role="banner">
       <h1 class="project-name">Glossary</h1>
-      <h2 class="project-tagline">the intent formal language</h2>
+      <h2 class="project-tagline">the ken markdown language</h2>
     </header>
 %nav
     <main id="content" class="main-content" role="main">
