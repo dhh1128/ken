@@ -9,7 +9,7 @@ removed construct | comment
 --- | ---
 [Setext headings](https://github.github.com/gfm/#setext-headings) | Use [ATX headings](https://github.github.com/gfm/#atx-heading) instead. Eliminates examples <a href="https://github.github.com/gfm/#example-50">50</a>-[76](https://github.github.com/gfm/#example-76) from the GFM spec.
 [Trailing `#` on ATX headings](https://github.github.com/gfm/#example-41) | Unnecessary. Eliminates examples <a href="https://github.github.com/gfm/#example-41">41</a>-[46](https://github.github.com/gfm/#example-46) from the GFM spec.
-[leading tabs](https://github.github.com/gfm/#tabs) | Indents created with mixed tabs and spaces creates surprises. Indent with 4 spaces. Leading tabs are an error.
+[leading tabs](https://github.github.com/gfm/#tabs) | Indents created with mixed tabs and spaces creates surprises. Indent with 4 spaces instead. Leading tabs are an error.
 extra leading spaces | Many markdown implementations ignore sequences of 1 to 3 extra leading spaces at the beginning of a line, so a 2-space indent has the same meaning as no indent, and a 7-space indent has the same meaning as a single 4-space indent. You can see a requirement to support this behavior in [GFM's 4.1 Thematic Breaks](https://github.github.com/gfm/#tabs), for example. Ken disallows this behavior. Indent as much as you need, but don't put extra leading whitespace on a line. 
 
 ## Repurposed or extended
