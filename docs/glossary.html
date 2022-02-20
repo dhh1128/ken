@@ -1,138 +1,143 @@
-<html>
-<head>
-  <title>Ken Glossary</title>
-  <style>
-body {
-    background-color: white;
-    padding: 0px;
-    margin: 0px;
-    font-family: Arial, sans-serif;
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+    <title>Glossary | the intent formal language</title>
+    <meta name="generator" content="Jekyll v3.9.0" />
+    <meta property="og:title" content="intent" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="the intent formal language" />
+    <meta property="og:description" content="the intent formal language" />
+    <link rel="canonical" href="https://intentlang.org/glossary.html" />
+    <meta property="og:url" content="https://intentlang.org/glossary.html" />
+    <meta property="og:site_name" content="intent" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="intent" />
+    <script type="application/ld+json">
+    {"description":"the intent formal language","url":"https://intentlang.org/glossary.html","@type":"WebPage","headline":"intent","@context":"https://schema.org"}</script>
+    <!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=3f3d0ff41cd73eb3af96ce9a8887b7c7da038069">
+    <link rel="stylesheet" href="/assets/overrides.css">
+    <link rel="icon" type="image/png" sizes="128x128" href="/assets/logo-128.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/logo-48.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/logo-16.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <style>
+._slf {
+    float: left;
+    padding-top: 4px;
+    margin-left: -16px;
+    cursor: pointer;
+    width:16px;
+    height:16px;
+    display: none;
 }
 
-header {
-    background-color: #3061a8;
-    color: white;
-    padding: 36px 16px 20px;
-    font-family: Verdana, sans-serif;
-    font-size: 150%;
-    font-weight: bold;
+dt:not(.letter):hover > ._slf {
+    display: inline;
 }
 
-main {
-    padding: 16px;
-    color: #444;
+._xl {
+    padding-right: 4px;
+    display: none;
+    cursor: pointer;
+    width:16px;
+    height:16px;
 }
 
-dt {
-    margin-top: 1.4em;
-    color: #3061a8;
-    font-size: 125%;
-    font-family: Verdana, sans-serif;
-}
-
+#glossary_content > dt { font-size: 1.2rem; }
 dt.letter {
     text-align: center;
-    font-weight: bold;
-    color: #999;
-    border-bottom: solid 1px #ddd;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 2.2em;
+    font-weight: normal;
+    color: #aaa;
+    padding-top: 1em;
 }
 
-nav {
-    padding: 4px 16px;
-    text-align: center;
-    background-color: #ddd;
-    color: #888;
+dt:not(.letter):hover > ._xl {
+  display: inline;
+}
+    </style>
+    <script>
+var getAbsoluteUrl = (function() {
+  var a;
+  return function(url) {
+      if (!a)
+        a = document.createElement('a');
+      a.href = url;
+      return a.href;
+  };
+})();
+
+function copyUrl(url) {
+  x = getAbsoluteUrl(url);
+  navigator.clipboard.writeText(x);
 }
 
-dd {
-    margin-left: 2em;
+function goto(url) {
+  window.location = url;
 }
+    </script>
+  </head>
+  <body>
+    <svg style="display:none">
+      <symbol id="_slf" viewBox="0 0 16 16">
+        <path style="fill:#aaa" fill-rule="evenodd"
+              d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/>
+      </symbol>
+      <symbol id="_xl" viewBox="0 -256 1850 1850">
+        <g transform="matrix(1,0,0,-1,30.372881,1426.9492)">
+          <path style="fill:#aaa"
+                d="M 1408,608 V 288 Q 1408,169 1323.5,84.5 1239,0 1120,0 H 288 Q 169,0 84.5,84.5 0,169 0,288 v 832 Q 0,1239 84.5,1323.5 169,1408 288,1408 h 704 q 14,0 23,-9 9,-9 9,-23 v -64 q 0,-14 -9,-23 -9,-9 -23,-9 H 288 q -66,0 -113,-47 -47,-47 -47,-113 V 288 q 0,-66 47,-113 47,-47 113,-47 h 832 q 66,0 113,47 47,47 47,113 v 320 q 0,14 9,23 9,9 23,9 h 64 q 14,0 23,-9 9,-9 9,-23 z m 384,864 V 960 q 0,-26 -19,-45 -19,-19 -45,-19 -26,0 -45,19 L 1507,1091 855,439 q -10,-10 -23,-10 -13,0 -23,10 L 695,553 q -10,10 -10,23 0,13 10,23 l 652,652 -176,176 q -19,19 -19,45 0,26 19,45 19,19 45,19 h 512 q 26,0 45,-19 19,-19 19,-45 z" />
+        </g>
+      </symbol>
+    </svg>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-dt > span.tag {
-  float: right;
-  background-color: #eee;
-  border: 1px solid #ccc;
-  padding: 2px 4px;
-  margin-right: 4px;
-  font-size: 60%;
-  font-family: Verdana;
-  color: #666;
-}
-
-dd>p:first-child {
-  margin-top: 0.2em;
-}
-
-a {
-    color: #3061a8;
-    text-decoration: none;
-}
-
-a:hover {
-    border-bottom: solid 1px #3061a8;
-}
-
-a:active {
-    background-color: #eee;
-}
-
-a:visited {
-    color: #6161a8;
-}
-
-nav > a, nav > a:visited {
-    color: black;
-}
-
-p.meta {
-    font-size: 80%;
-    color: #bbb;
-    text-align: right;
-    margin-top: -0.9em;
-}
-
-  </style>
-</head>
-<body>
-<header>Ken Glossary</header>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Glossary</h1>
+      <h2 class="project-tagline">the intent formal language</h2>
+    </header>
 <nav>[ A B C <a href="#D">D</a> <a href="#E">E</a> F G H I J K L M <a href="#N">N</a> O P Q R <a href="#S">S</a> <a href="#T">T</a> U V W X Y Z ]</nav>
-<main>
+
+    <main id="content" class="main-content" role="main">
 <dl id="glossary_content">
 <dt id="D" class="letter">D</td>
-<dt id="disjoint-anchor">disjoint anchor <span class="tag">#ken</span></dt>
+<dt id="disjoint-anchor"><svg class="_slf" onclick="copyUrl('#disjoint-anchor')"><use href="#_slf"/></svg>disjoint anchor <svg class="_xl" onclick="goto('https://github.com/dhh1128/ken/wiki//disjoint-anchor')"><use href="#_xl"/></svg><span class="tag">#ken</span></dt>
 <dd><p>A ken anchor that encompasses multiple, separate stretches of content as a single composite unit.</p>
 <p>For example, suppose an English teacher wants to illustrate the rhyme scheme in Shakespeare’s Sonnet 29. She might define the endings of rhyming lines to be part of a single disjoint anchor. When she later links to such an anchor, she is able to point to all items that share a common anchor ID as a unit. In the following example, she could point to the red lines, the blue lines, or the green lines as link targets:</p>
 <p><img src="/assets/disjoint-anchors.png" alt="disjoint anchors" /></p>
-<p class="meta">version 2, commit 3870d0d, created 2022-02-20, last modified 2022-02-20, contributors Daniel Hardman - dhh1128</p>
 </dd>
 
 <dt id="E" class="letter">E</td>
-<dt id="embeddable-mode">embeddable mode <span class="tag">#ken</span></dt>
+<dt id="embeddable-mode"><svg class="_slf" onclick="copyUrl('#embeddable-mode')"><use href="#_slf"/></svg>embeddable mode <svg class="_xl" onclick="goto('https://github.com/dhh1128/ken/wiki//embeddable-mode')"><use href="#_xl"/></svg><span class="tag">#ken</span></dt>
 <dd><p>A mode of ken <a href="#transformation" title="The process of converting ken to HTML.">transformation</a> that intends to produce output suitable for embedding in a containing website. To make the content consistent with container styling, style information is suppressed. To prevent <a href="https://owasp.org/www-community/attacks/xss/#">cross-site scripting (XSS)</a> and <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.469.7647&amp;rep=rep1&amp;type=pdf">scriptless attacks</a>, the output HTML is <a href="https://en.wikipedia.org/wiki/HTML_sanitization">sanitized</a> by removing various constructions (CSS, <code>&lt;style&gt;</code>, <code>&lt;script&gt;</code>, many HTML tag attributes...). Contrast <a href="#standalone-mode" title="The mode of ken transformation that intends to produce rich, self-contained documents.">standalone mode</a>. See also <a href="#natural-mode" title="The mode of ken transformation that's implied by the content of the document.">natural mode</a>.</p>
-<p class="meta">version 2, commit b05e5bd, created 2022-02-20, last modified 2022-02-20, contributors Daniel Hardman - dhh1128</p>
 </dd>
 
 <dt id="N" class="letter">N</td>
-<dt id="natural-mode">natural mode <span class="tag">#ken</span></dt>
+<dt id="natural-mode"><svg class="_slf" onclick="copyUrl('#natural-mode')"><use href="#_slf"/></svg>natural mode <svg class="_xl" onclick="goto('https://github.com/dhh1128/ken/wiki//natural-mode')"><use href="#_xl"/></svg><span class="tag">#ken</span></dt>
 <dd><p>The mode of ken <a href="#transformation" title="The process of converting ken to HTML.">transformation</a> that's implied by the content of the document. Documents that contain a <code>standalone prefix</code> or <code>standalone suffix</code> property, or that contain any HTML content that would be sanitized in <a href="#embeddable-mode" title="A mode of ken transformation that intends to produce output suitable for embedding in a containing website.">embeddable mode</a>, are naturally standalone. Documents that contain no content requiring sanitization are naturally embeddable.</p>
-<p class="meta">version 3, commit d8511f5, created 2022-02-20, last modified 2022-02-20, contributors Daniel Hardman - dhh1128</p>
 </dd>
 
 <dt id="S" class="letter">S</td>
-<dt id="standalone-mode">standalone mode <span class="tag">#ken</span></dt>
+<dt id="standalone-mode"><svg class="_slf" onclick="copyUrl('#standalone-mode')"><use href="#_slf"/></svg>standalone mode <svg class="_xl" onclick="goto('https://github.com/dhh1128/ken/wiki//standalone-mode')"><use href="#_xl"/></svg><span class="tag">#ken</span></dt>
 <dd><p>The mode of ken <a href="#transformation" title="The process of converting ken to HTML.">transformation</a> that intends to produce rich, self-contained documents. Such output is not <a href="https://en.wikipedia.org/wiki/HTML_sanitization">sanitized</a>, and is therefore unsafe to display as a child of any other HTML container. Contrast <a href="#embedded-mode">embedded mode</a>. See also <a href="#natural-mode" title="The mode of ken transformation that's implied by the content of the document.">natural mode</a>.</p>
-<p class="meta">version 2, commit a816d6f, created 2022-02-20, last modified 2022-02-20, contributors Daniel Hardman - dhh1128</p>
 </dd>
 
 <dt id="T" class="letter">T</td>
-<dt id="transformation">transformation <span class="tag">#ken</span></dt>
+<dt id="transformation"><svg class="_slf" onclick="copyUrl('#transformation')"><use href="#_slf"/></svg>transformation <svg class="_xl" onclick="goto('https://github.com/dhh1128/ken/wiki//transformation')"><use href="#_xl"/></svg><span class="tag">#ken</span></dt>
 <dd><p>The process of converting ken to HTML.</p>
-<p class="meta">version 1, commit 90be1c7, created 2022-02-20, contributors dhh1128</p>
 </dd>
 </dl>
-</main>
-</body>
+
+    </main>
+  </body>
 </html>
