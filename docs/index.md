@@ -4,7 +4,7 @@ Ken is a variant of markdown that maximizes expressive power.
 
 ![definition](assets/definition.png)
 
-Ken's syntax derives from [Github-Flavored Markdown](https://github.github.com/gfm/) (which in derives from [CommonMark](https://spec.commonmark.org/)). If you know markdown, you already "ken" a lot of it. Read [the spec](spec/README.md) for details.
+If you know markdown, you already "ken" a lot of ken's syntax. Read [the spec](spec/README.md) for details.
 
 #### Why
 

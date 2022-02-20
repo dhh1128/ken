@@ -1,9 +1,9 @@
 # Spec
 
-Ken's syntax derives from [Github-Flavored Markdown](https://github.github.com/gfm/) (which in derives from [CommonMark](https://spec.commonmark.org/)). If you know markdown, you can probably take most of ken's syntax for granted. We do not repeat the content of those specs here; we just describe the differences.
+Ken's syntax derives from [Github-Flavored Markdown](https://github.github.com/gfm/) (which in turn derives from [CommonMark](https://spec.commonmark.org/)). We do not repeat the content of those specs here; we just describe the differences.
 
-## Not supported
-Ken removes some optional, uncommon markdown constructs. No expressive power is lost. The simplifications just improve consistency and readability, and make parsing easier.
+## Simplifications
+To improve consistency and readability, and to make parsing easier, ken removes some optional, uncommon markdown constructs. No expressive power is lost.
 
 removed construct | comment
 --- | ---
