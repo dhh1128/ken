@@ -8,15 +8,15 @@
     <meta name="generator" content="Jekyll v3.9.0" />
     <meta property="og:title" content="intent" />
     <meta property="og:locale" content="en_US" />
-    <meta name="description" content="the intent formal language" />
-    <meta property="og:description" content="the intent formal language" />
-    <link rel="canonical" href="https://intentlang.org/glossary.html" />
-    <meta property="og:url" content="https://intentlang.org/glossary.html" />
-    <meta property="og:site_name" content="intent" />
+    <meta name="description" content="the ken markdown language" />
+    <meta property="og:description" content="the ken markdown language" />
+    <link rel="canonical" href="https://dhh1128.github.io/ken/glossary/" />
+    <meta property="og:url" content="https://dhh1128.github.io/ken/glossary" />
+    <meta property="og:site_name" content="ken" />
     <meta name="twitter:card" content="summary" />
-    <meta property="twitter:title" content="intent" />
+    <meta property="twitter:title" content="ken" />
     <script type="application/ld+json">
-    {"description":"the ken markdown language","url":"https://dhh1128.github.io/ken/glossary.html","@type":"WebPage","headline":"ken","@context":"https://schema.org"}</script>
+    {"description":"the ken markdown language","url":"https://dhh1128.github.io/ken/glossary/","@type":"WebPage","headline":"ken","@context":"https://schema.org"}</script>
     <!-- End Jekyll SEO tag -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -24,13 +24,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=3f3d0ff41cd73eb3af96ce9a8887b7c7da038069">
-    <link rel="stylesheet" href="/assets/overrides.css">
-    <link rel="icon" type="image/png" sizes="128x128" href="/assets/icon-128.png">
-    <link rel="icon" type="image/png" sizes="48x48" href="/assets/icon-48.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icon-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icon-16.png">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="assets/css/style.css?v=3f3d0ff41cd73eb3af96ce9a8887b7c7da038069">
+    <link rel="stylesheet" href="assets/overrides.css">
+    <link rel="icon" type="image/png" sizes="128x128" href="assets/icon-128.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="assets/icon-48.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icon-16.png">
+    <link rel="shortcut icon" href="assets/favicon.ico">
     <style>
 ._slf {
     float: left;
