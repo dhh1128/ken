@@ -1,0 +1,13 @@
+/target
+/Cargo.lock
+
+# Compiled files
+*.o
+*.so
+*.rlib
+*.dll
+
+# Executables
+*.exe
+
+.DS_Store

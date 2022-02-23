@@ -1,0 +1,31 @@
+[package]
+
+name = "ken"
+version = "0.1.0"
+authors = ["Daniel Hardman <daniel.hardman@gmail.com>"]
+description = "Native Rust library for parsing Ken and (outputting HTML)"
+repository = "https://github.com/dhh1128/ken"
+readme = "README.md"
+keywords = ["markdown", "md", "html", "parser", "ken"]
+license = "Apache-2.0"
+
+exclude = [
+    "test.md"
+]
+
+[[bin]]
+name = "ken"
+doc = false
+
+[features]
+default = []
+unstable = []
+
+[dependencies]
+lazy_static = "1.4.0"
+pipeline = "0.5"
+regex = "1"
+
+[dev-dependencies]
+difference = "0.4"
+

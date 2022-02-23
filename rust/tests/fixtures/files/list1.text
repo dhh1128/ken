@@ -1,0 +1,15 @@
+*   A list item with a blockquote:
+
+    > This is a blockquote
+    > inside a list item.
+
+________
+
+*   Bird
+*   Magic
+
+________
+
+*   Bird
+
+*   Magic
