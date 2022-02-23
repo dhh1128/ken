@@ -7,6 +7,7 @@ To improve consistency and readability, and to make parsing easier, ken removes 
 
 removed construct | comment
 --- | ---
+[thematic breaks (`<hr>`)](https://github.github.com/gfm/#thematic-breaks) | Three or more underscore characters (`___`) are recognized as a thematic break and converted to `<hr>`. Exactly three hyphens (`---`) are treated as a [YAML `c-directives-end` symbol](https://yaml.org/spec/1.2.2/#912-document-markers), allowing [YAML front matter for document metadata](https://github.com/redhat-developer/vscode-yaml/issues/207). Runs of `*` characters cannot form thematic breaks. 
 [Setext headings](https://github.github.com/gfm/#setext-headings) | Use [ATX headings](https://github.github.com/gfm/#atx-heading) instead. Eliminates examples <a href="https://github.github.com/gfm/#example-50">50</a>-[76](https://github.github.com/gfm/#example-76) from the GFM spec.
 [Trailing `#` on ATX headings](https://github.github.com/gfm/#example-41) | Unnecessary. Eliminates examples <a href="https://github.github.com/gfm/#example-41">41</a>-[46](https://github.github.com/gfm/#example-46) from the GFM spec.
 [leading tabs](https://github.github.com/gfm/#tabs) | Indents created with mixed tabs and spaces creates surprises. Indent with 4 spaces instead. Leading tabs are an error.
