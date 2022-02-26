@@ -25,6 +25,8 @@ unstable = []
 lazy_static = "1.4.0"
 pipeline = "0.5"
 regex = "1"
+colored = "2"
+walkdir = "2"
 
 [dev-dependencies]
 difference = "0.4"

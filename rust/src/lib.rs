@@ -45,5 +45,6 @@ pub fn file_to_html(path: &Path) -> io::Result<String> {
     file.read_to_string(&mut text)?;
 
     let result = parser::parse(&text);
+    println!("Found {} blocks", result.len());
     Ok(html::to_html(&result))
 }
