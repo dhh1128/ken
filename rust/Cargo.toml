@@ -1,5 +1,4 @@
 [package]
-
 name = "ken"
 version = "0.1.0"
 authors = ["Daniel Hardman <daniel.hardman@gmail.com>"]
@@ -8,10 +7,11 @@ repository = "https://github.com/dhh1128/ken"
 readme = "README.md"
 keywords = ["markdown", "md", "html", "parser", "ken"]
 license = "Apache-2.0"
+build = "build.rs"
+exclude = ["test.md"]
 
-exclude = [
-    "test.md"
-]
+[build-dependencies]
+built = "0.5"
 
 [[bin]]
 name = "ken"
@@ -27,6 +27,7 @@ pipeline = "0.5"
 regex = "1"
 colored = "2"
 walkdir = "2"
+clap = { version = "3.1.5", features = ["cargo"] }
 
 [dev-dependencies]
 difference = "0.4"
