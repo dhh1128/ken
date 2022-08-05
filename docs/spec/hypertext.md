@@ -15,7 +15,7 @@ ken is an extremely powerful hypertext format. For clarity and ease of use, it s
 
 element | syntax
 --- | ---
-[normal hyperlink](#hyperlinks) | `[clickable content](ref)`, as in markdown. Advanced params can be added after `ref` but before the closing paren, using <code>&vert;</code> and `a=b; x=y` syntax: <code>[clickable content](ref&vert; download=license.txt; rel=license)</code>. Whitespace before and after the <code>&vert;</code> and `;` characters are optional.
+[normal hyperlink](#hyperlinks) | As in standard markdown: `[clickable content](ref)`. Advanced params can be added after `ref` but before the closing paren, using <code>&vert;</code> and `a=b; x=y` syntax: <code>[clickable content](ref&vert; download=license.txt; rel=license)</code>. Whitespace before and after the <code>&vert;</code> and `;` characters are optional.
 [terse hyperlink](#terse-hyperlinks) | `[#clickable content]`, where the clickable content [derives the ID](#comparing-anchor-ids) of an anchor elsewhere. The `#` character is not rendered.
 autolinks | Tokens that match URI syntax and that begin with `http://`, `https://`, and `mailto:` are automatically rendered as hyperlinks by ken, unless they are immediately preceded by empty braces, as in `[]http://example.com/dont-make-me-clickable`.
 [simple text anchor](#simple-text-anchors) | `[anchor text]`. ID is [derived from](#comparing-anchor-ids) anchor text. Unlike HTML or markdown, ken allows nested anchors (e.g., where a full sentence is an anchor, a word inside the sentence can also be an anchor).
@@ -86,13 +86,13 @@ In addition, *references* to IDs can be abbreviated with an `*` wildcard, as lon
 Sometimes the intent is to anchor a *location*, rather than anchoring *visible content*. For example, you might want to point between two words to show someone where a missing piece of content belongs. To do this, simply insert an explicit anchor ID without any anchor text:
 
 ```i
-running text[insert-here:] more running text
+running text[insert-here:] and more and more words
 ```
 
 Note the lack of a space after "text". The anchor is for an insert point immediately after "text". If we had instead written:
 
 ```i
-running text [insert-here:] more running text
+running text [insert-here:] and more and more words
 ```
 
 ...the anchor would be between two spaces.
@@ -121,7 +121,7 @@ In certain circumstances, an [#MRI] provides diagnostic insight that is unavaila
 
 But what if we wanted to make our term reference plural: "MRIs provide diagnostic insight..."? Now our clickable term ends with `-s`, whereas its definition is the uninflected singular form... There are two solutions: 
 
-* Add __ID variants__ to the anchor: In the definition anchor, do something like this: `[id:MRIs: MRI]`. ken treats evything will render only the first form in the *in situ* context, but will accept all others as equally valid variants in references. Variants can include the `*` wildcard; `[=invoking|invoc*|invok*]` creates ID variants that match any form of the verb `invoke`.
+* Add __ID variants__ to the anchor: In the definition anchor, do something like this: `[id:MRIs: MRI]`. ken treats everything will render only the first form in the *in situ* context, but will accept all others as equally valid variants in references. Variants can include the `*` wildcard; `[=invoking|invoc*|invok*]` creates ID variants that match any form of the verb `invoke`.
 
     >Note 1: It also creates some nonsense possibilities like accidentally mapping `[#invoc-o-matic]` to the `invoc*` anchor -- but since the author chooses whether to insert such references, and since definition references can only point at definition anchors, there's little practical difficulty with the fuzzy target.
 
