@@ -4,6 +4,7 @@ use parser::Block::{
 };
 use parser::Span::{Break, Code, Emphasis, Image, Link, Literal, RefLink, Strong, Text};
 use parser::{ListItem, OrderedListType, Span};
+
 use regex::Regex;
 use std::collections::HashMap;
 

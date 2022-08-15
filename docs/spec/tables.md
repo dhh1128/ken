@@ -4,6 +4,8 @@ Ken supports the [table syntax of Github-flavored markdown](https://github.githu
 
 In general, cells can be styled by appending one or more **style instructions** to the pipe character that precedes a cell. Multiple style instructions can often be specified by pure concatenation; if something is ambiguous, separate with semicolon. Entire columns can be styled by appending these style instructions to the associated pipe character on the delimiter row. Style instructions are inherited across a row, but not from one row to another. This means you can style a whole row just by styling its first cell. If you want different styles in subsequent cells on the same row, just specify the styles each time they change.
 
+concept of ditto for rows (repeat previous style) as well as anteditto (repeat previous previous style)
+
 ## Shading
 
 Shading instructions are single characters. Three are possible:
@@ -16,7 +18,7 @@ instruction | meaning
 
 Reset cancels an inherited darkening on the current row. It isn't needed when doing full-row styling, but it allows for alternating cell shading on a single row.
 
-To shade alternate rows, use both the `x` and `o` characters as a single instruction on the delimiter row of the table. In this case, if `x` appears first, the odd rows below the header will be darkened; if `o` appears first, even rows will be darkened.
+To shade alternate rows, use both the `x` and `o` characters as a single instruction on the delimiter row of the table. In this case, if `x` appears first, the odd rows below the header will be darkened; if `o` appears first, even rows will be darkened. The header row will be double-darkened.
 
 ## Highlighting
 

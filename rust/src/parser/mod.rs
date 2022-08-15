@@ -1,5 +1,6 @@
 mod block;
 mod span;
+mod fid;
 
 #[allow(missing_docs)]
 #[derive(Debug, PartialEq, Eq, Clone)]
