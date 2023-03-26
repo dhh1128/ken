@@ -9,7 +9,7 @@ list styles a.
 
 ## Hypertext
 
-ken is an extremely powerful hypertext format. For clarity and ease of use, it supports most hypertext features from pure markdown and from [many of markdown's variants](https://gist.github.com/vimtaai/99f8c89e7d3d02a362117284684baa0f). It also plugs gaps where markdown omits an HTML feature (e.g., the ability to specify a `target` for a link). And it even goes beyond HTML, offering [highlights](highlights.md), [comments, footnotes, and endnotes](asides.md) like a word processor, [definition links like ReSpec](https://respec.org/docs/#definitions-and-linking), plus a few hypertext constructs that are totally unique.
+Ken is an extremely powerful hypertext format. For clarity and ease of use, it supports most hypertext features from pure markdown and from [many of markdown's variants](https://gist.github.com/vimtaai/99f8c89e7d3d02a362117284684baa0f). It also plugs gaps where markdown omits an HTML feature (e.g., the ability to specify a `target` for a link). And it even goes beyond HTML, offering [highlights](highlights.md), [comments, footnotes, and endnotes](asides.md) like a word processor, [definition links like ReSpec](https://respec.org/docs/#definitions-and-linking), plus a few hypertext constructs that are totally unique.
 
 ### Quick Reference
 
